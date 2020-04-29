@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/自然语言处理与深度学习/one" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/算法与数据结构" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/推荐系统" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/算法与数据结构/To_test_my_works" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
