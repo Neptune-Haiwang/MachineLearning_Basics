@@ -1,4 +1,4 @@
-from my_Stack import Stack
+from A1线性结构.my_Stack import Stack
 
 # 创建对象
 s = Stack()
