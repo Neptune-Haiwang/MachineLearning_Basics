@@ -22,6 +22,10 @@
       <sourceFolder url="file://$MODULE_DIR$/算法与数据结构/A1线性结构/To_test_my_works" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/算法与数据结构/A1线性结构" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/算法与数据结构/A2递归" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/huawei_jingsai" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/算法与数据结构/A3排序与查找" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/算法与数据结构/A4树结构" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/算法与数据结构/A5图结构" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
