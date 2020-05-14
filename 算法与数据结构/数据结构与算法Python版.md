@@ -1,5 +1,9 @@
 数据结构与算法Python版 https://www.bilibili.com/video/BV1h7411m7BK?p=8
-原视频来源   https://www.icourse163.org/course/0809PKU068-1206307812
+    //原视频来源   https://www.icourse163.org/course/0809PKU068-1206307812
+# python正则表达式
+
+    
+
 # 0 算法的时间复杂度与空间复杂度分析 
 ## 时间复杂度 -> Big O Notation
     - 常数 1
@@ -161,19 +165,31 @@
 
 # 5 图
 ## 各种图画的英文的中文解释
-painting: 用画刷笔画的油画
-drawing: 用硬笔画的素描画/线条画
-picture: 真实形象所反映的画，如照片，take picture
-image: 由印象而来的画，遥感印象，传感器传来的印象画
-figure: 轮廓图，figure out
-diagram: 抽象的概念关系图，如电路图，大气洋流图
-chart: 由数字统计而来的柱状图，折线图等; map地图, plot地图上的一小块
-graph: 重在由一些基本元素构造而来的图，如点和线段等。
+    painting: 用画刷笔画的油画
+    drawing: 用硬笔画的素描画/线条画
+    picture: 真实形象所反映的画，如照片，take picture
+    image: 由印象而来的画，遥感印象，传感器传来的印象画
+    figure: 轮廓图，figure out
+    diagram: 抽象的概念关系图，如电路图，大气洋流图
+    chart: 由数字统计而来的柱状图，折线图等; map地图, plot地图上的一小块
+    graph: 重在由一些基本元素构造而来的图，如点和线段等。
 
 ## 图的概念
-
-
-
-
-
+    - 图graph：由节点和边构成，（树也是一种具有特殊性质的图）
+        * 顶点vertex：也叫节点node，顶点具有名称标示key，也可以携带数据项payload
+        * 边edge：连接两个顶点，有向，无向
+        * 权重weight：从一个顶点到另一个顶点的代价，例如：公交网络中两个站点之间的距离，通行时间，票价等权重。
+    - G = (V, E), E中的每条边 e = (v, w), v 和 w 都是V中的顶点。赋权图增加子集 例：E = {(v0,v1,5), (v5,v2,1),...}
+    - 路径path：例：(v3, v4, v0, v1), 其边为：{(v3,v4,7), (v4,v0,1),(v0,v1,5)}
+    - 圈cycle：例（v5, v2, v3, v5）
+        * 如果一个有向图中不存在任何圈，则称为 有向无圈图 DAG: directed acyclic graph
+## 抽象数据类型 ADT graph:
+    - ADT graph实现的两种形式：
+        * 邻接矩阵：adjacency matrix: 没有连接权重为0， 有权重则赋予相应的权重。但是这种矩阵是稀疏矩阵
+        * 邻接表：adjacency list：维护一个包含所有顶点的主列表，主列表中每个顶点，再关联一个与自身有边连接的所有顶点的列表。
+            ** 例：V0 : id = 'V0', adj = {V1:5, V5:2}
+    - 最小权重的生成树 minimum weight spanning tree：
+        * 对于图G(V, E)的最小生成树T, 定义为：包含所有顶点V, 以及E的无圈子集，并且边的权重之和最小。
+        * 应用：信息广播：每个路由器节点都可以遍历到，同时总费用最小。
+        * 最小生成树算法：贪心算法，每一步都沿着最小权重的边向前搜索。
 
